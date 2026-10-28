@@ -1,0 +1,9 @@
+{
+  "versionName": "1.1-preview",
+  "versionCode": 2,
+  "packageName": "com.cancha.tv",
+  "apkUrl": "https://rodrigorl18.github.io/cancha-tv/downloads/cancha-tv-2.apk",
+  "bytes": 6864069,
+  "sha256": "4153e5d046d96d0c1755efebabd5b77f1fcb34df08e9fdae82d00bd7387b047a",
+  "releaseNotes": "Nueva guía para TV con vista previa, NBA y favoritos. Catálogo ampliado con actualización desde la app. Reconexión automática de señales y búsqueda de nuevas versiones."
+}

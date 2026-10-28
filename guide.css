@@ -1,0 +1,14 @@
+/* Channel guide for a desktop/TV browser; native Android uses the same palette. */
+body{background:#0b0f12}.topbar,.sidebar{background:#10171c;border-color:#25303a}.topbar{height:68px}.sidebar{border-color:#25303a}.channel-card,.watch-next{background:#131a20;border-color:#2c3740}.channel-card:hover,.channel-card.selected{border-color:#c3fa4d;background:#1b2922}.page-title{margin-bottom:20px}.page-title h1{font-size:34px}.catalog-heading h2{font-size:27px}.sidebar-bottom{margin-top:64px}.nav-item.active{background:#243822}.video-shell{background:#05080a}.now-bar{border-color:#29343d}
+@media(min-width:1000px){
+  main{padding-top:24px}.shell{grid-template-columns:190px minmax(0,1fr)}
+  .channel-grid{display:flex;flex-direction:column;gap:7px}
+  .channel-card{display:grid;grid-template-columns:minmax(0,1fr) 210px;align-items:center;min-height:82px;border-radius:9px}
+  .card-open{display:grid;grid-template-columns:96px minmax(120px,1fr) 150px;align-items:center;gap:16px;text-align:left;min-height:80px;padding:12px 18px}
+  .card-brand{font-size:23px;min-height:0;margin:0;line-height:1.1;overflow-wrap:anywhere}
+  .card-open h3{font-size:15px;margin:0}.card-open>p{font-size:11px;margin:0;color:#8e9ca7}
+  .card-footer{border:0;padding:8px 47px 8px 8px;display:flex;flex-direction:column;align-items:flex-start;gap:7px;font-size:10px}
+  .card-footer>span:last-child{font-size:9px;color:#8e9ca7}.card-favorite{right:12px;top:calc(50% - 15px)}
+  .catalog-section{margin-top:28px}.cover-content h2{font-size:36px}
+}
+@media(max-width:640px){.topbar{height:66px}.sidebar{background:#10171cf5}.page-title h1{font-size:28px}.channel-card{border-radius:9px}}
