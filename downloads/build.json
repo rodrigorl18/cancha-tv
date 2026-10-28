@@ -1,0 +1,10 @@
+{
+  "version": "1.0-preview",
+  "package": "com.cancha.tv",
+  "androidMin": 6,
+  "androidTV": true,
+  "bytes": 6817226,
+  "sha256": "4489e22d62653ed463f8a4c44f07f24bf7ee7ac119da6051ae86c9a370fef8f0",
+  "createdAt": "2026-10-28T20:16:58.248Z",
+  "validation": "Compilación, lint y firma. Prueba física en teléfono y TV pendiente."
+}
