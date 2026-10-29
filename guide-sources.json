@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "researchedAt": "2026-10-29T00:50:00.312Z",
+  "targetCountry": "VE",
+  "miTv": [
+    {
+      "feedId": "ESPNLatinAmerica.us@Colombia",
+      "country": "co",
+      "slug": "espn"
+    },
+    {
+      "feedId": "ESPN2LatinAmerica.us@Colombia",
+      "country": "co",
+      "slug": "espn-2"
+    },
+    {
+      "feedId": "ESPNLatinAmerica.us@Mexico",
+      "country": "mx",
+      "slug": "espn"
+    },
+    {
+      "feedId": "ESPNExtraLatinAmerica.us@Argentine",
+      "country": "ar",
+      "slug": "espn-1"
+    }
+  ],
+  "rights": [
+    {
+      "id": "nba",
+      "name": "NBA",
+      "providers": [
+        {
+          "name": "NBA League Pass",
+          "url": "https://www.nba.com/league-pass",
+          "territory": "Internacional; comprobar disponibilidad en Venezuela",
+          "access": "Suscripción",
+          "coverage": "Partidos por encuentro y señales de equipos. Disponibilidad y restricciones según país.",
+          "channelIds": [],
+          "sources": [
+            "https://support.watch.nba.com/hc/en-us/articles/115000586473-Global-NBA-League-Pass-Availability"
+          ]
+        },
+        {
+          "name": "ESPN / Disney+",
+          "url": "https://www.disneyplus.com/",
+          "territory": "Venezuela, según programación oficial",
+          "access": "TV o suscripción",
+          "coverage": "Selección de partidos. La programación por país identifica el canal o acceso digital concreto.",
+          "channelIds": [
+            "ESPNLatinAmerica.us",
+            "ESPN2LatinAmerica.us",
+            "ESPN3LatinAmerica.us"
+          ],
+          "sources": [
+            "https://latinamerica.espnpressroom.com/category/programacion/"
+          ]
+        },
+        {
+          "name": "Prime Video",
+          "url": "https://www.primevideo.com/",
+          "territory": "Paquete internacional; comprobar territorio y plan",
+          "access": "Suscripción",
+          "coverage": "Partidos de su paquete; no equivale automáticamente a NBA League Pass.",
+          "channelIds": [],
+          "sources": [
+            "https://pr.nba.com/nba-walt-disney-company-nbcuniversal-amazon-prime-video-media-agreements/"
+          ]
+        },
+        {
+          "name": "WBD / TNT Sports / HBO Max",
+          "url": "https://www.hbomax.com/",
+          "territory": "Latinoamérica, excepto Brasil y México",
+          "access": "Según operador y plan",
+          "coverage": "Acuerdo regional de derechos NBA; el partido y distribución se comprueban en programación.",
+          "channelIds": [],
+          "sources": [
+            "https://press.wbd.com/us/media-release/warner-bros-discovery-and-national-basketball-association-reach-agreement-expand-long?language_content_entity=en"
+          ]
+        },
+        {
+          "name": "NBA TV",
+          "url": "https://www.nba.com/watch/nba-tv",
+          "territory": "Edición estadounidense en el catálogo",
+          "access": "Señal indexada; reproducción por comprobar",
+          "coverage": "Una sola programación. No son siete señales por siete partidos simultáneos.",
+          "channelIds": [
+            "NBATV.us"
+          ],
+          "sources": [
+            "https://www.nba.com/games"
+          ]
+        },
+        {
+          "name": "ABC / NBC / Peacock",
+          "url": "https://www.nba.com/games",
+          "territory": "Estados Unidos; no confirma Venezuela",
+          "access": "TV o suscripción",
+          "coverage": "Paquetes estadounidenses; consultar transmisión por partido.",
+          "channelIds": [],
+          "sources": [
+            "https://pr.nba.com/nba-walt-disney-company-nbcuniversal-amazon-prime-video-media-agreements/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mlb",
+      "name": "MLB / Grandes Ligas",
+      "providers": [
+        {
+          "name": "MLB.TV",
+          "url": "https://www.mlb.com/live-stream-games",
+          "territory": "Según país y restricciones del partido",
+          "access": "Suscripción",
+          "coverage": "Paquete de partidos; consultar disponibilidad y blackouts. No confundir con el canal gratuito MLB.",
+          "channelIds": [],
+          "sources": [
+            "https://www.mlb.com/live-stream-games/help-center/blackouts-available-games"
+          ]
+        },
+        {
+          "name": "Televen",
+          "url": "https://televen.com/beisbol-de-grandes-ligas/",
+          "territory": "Venezuela",
+          "access": "TV / disponibilidad de la señal",
+          "coverage": "Partidos seleccionados de Grandes Ligas. Consultar la programación de Televen.",
+          "channelIds": [
+            "Televen.ve"
+          ],
+          "sources": [
+            "https://televen.com/beisbol-de-grandes-ligas/"
+          ]
+        },
+        {
+          "name": "ESPN / Disney+",
+          "url": "https://www.disneyplus.com/",
+          "territory": "Venezuela cuando lo indique la programación",
+          "access": "TV o suscripción",
+          "coverage": "Partidos anunciados por ESPN para Venezuela; no asignar todos a ESPN por defecto.",
+          "channelIds": [
+            "ESPNLatinAmerica.us",
+            "ESPN2LatinAmerica.us"
+          ],
+          "sources": [
+            "https://latinamerica.espnpressroom.com/category/programacion/"
+          ]
+        },
+        {
+          "name": "MLB Network",
+          "url": "https://www.mlb.com/network",
+          "territory": "Estados Unidos; disponibilidad internacional por confirmar",
+          "access": "Servicio de TV",
+          "coverage": "Canal especializado. No se encontró una señal de MLB Network en el índice revisado.",
+          "channelIds": [],
+          "sources": [
+            "https://www.mlb.com/network"
+          ]
+        },
+        {
+          "name": "FOX / FOX Deportes / FS1",
+          "url": "https://www.mlb.com/schedule",
+          "territory": "Estados Unidos; no confirma Venezuela",
+          "access": "TV o suscripción",
+          "coverage": "Emisiones indicadas en el calendario oficial. Una afiliada FOX local puede emitir otra cosa.",
+          "channelIds": [
+            "FoxDeportes.us",
+            "FoxSports1.us"
+          ],
+          "sources": [
+            "https://statsapi.mlb.com/api/v1/schedule?sportId=1&hydrate=broadcasts"
+          ]
+        },
+        {
+          "name": "MLB · canal gratuito",
+          "url": "https://www.mlb.com/",
+          "territory": "Señal indexada",
+          "access": "Canal gratuito según emisor",
+          "coverage": "Programas, resúmenes y repeticiones; no es MLB.TV ni garantiza encuentros en directo.",
+          "channelIds": [
+            "MLB.us"
+          ],
+          "sources": [
+            "https://www.mlb.com/live-stream-games"
+          ]
+        },
+        {
+          "name": "TBS / NBC-Peacock / Netflix",
+          "url": "https://www.mlb.com/schedule",
+          "territory": "Estados Unidos; eventos según contrato",
+          "access": "TV o suscripción",
+          "coverage": "Paquetes y eventos; consultar calendario.",
+          "channelIds": [
+            "TBS.us"
+          ],
+          "sources": [
+            "https://www.mlb.com/news/mlb-announces-media-rights-deals-with-espn-nbc-netflix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lvbp",
+      "name": "Béisbol venezolano / LVBP",
+      "providers": [
+        {
+          "name": "Televen",
+          "url": "https://televen.com/beisbol-profesional-venezolano/",
+          "territory": "Venezuela",
+          "access": "TV / disponibilidad de la señal",
+          "coverage": "Partidos de la temporada anunciados por Televen. No confundir LVBP con MLB.",
+          "channelIds": [
+            "Televen.ve"
+          ],
+          "sources": [
+            "https://televen.com/tus-programas/la-pasion-del-beisbol-venezolano-regresa-a-la-pantalla-de-televen/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "name": "Fútbol europeo y otros torneos",
+      "providers": [
+        {
+          "name": "ESPN · Champions y Premier League",
+          "url": "https://latinamerica.espnpressroom.com/category/programacion/",
+          "territory": "Sudamérica / Venezuela",
+          "access": "TV o Disney+ según partido",
+          "coverage": "UEFA y Premier League confirman a ESPN para esta región. Consultar el canal de cada encuentro.",
+          "channelIds": [
+            "ESPNLatinAmerica.us",
+            "ESPN2LatinAmerica.us",
+            "ESPN3LatinAmerica.us",
+            "ESPN4LatinAmerica.us"
+          ],
+          "sources": [
+            "https://www.premierleague.com/es/news/3703577/premier-league-broadcast-deals-for-2025-2028",
+            "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+          ]
+        },
+        {
+          "name": "ESPN y DSPORTS · LaLiga",
+          "url": "https://www.laliga.com/",
+          "territory": "Sudamérica hispanohablante",
+          "access": "TV o streaming según operador",
+          "coverage": "LaLiga confirmó ambos socios hasta 2031/32. No todos los encuentros corresponden al mismo canal.",
+          "channelIds": [
+            "DSports.us",
+            "DSports2.us",
+            "ESPNLatinAmerica.us"
+          ],
+          "sources": [
+            "https://www.laliga.com/noticias/laliga-renueva-con-espn-y-dsports-para-seguir-acercando-el-mejor-futbol-espanol-a-millones-de-aficionados-en-sudamerica-hasta-2031-32"
+          ]
+        },
+        {
+          "name": "Bundesliga / Serie A / Ligue 1",
+          "url": "https://latinamerica.espnpressroom.com/category/programacion/",
+          "territory": "Venezuela cuando lo indique la programación",
+          "access": "TV o Disney+ según partido",
+          "coverage": "La programación de ESPN indica canal y encuentro. No implica que todos los ESPN lleven todas las ligas.",
+          "channelIds": [
+            "ESPNLatinAmerica.us",
+            "ESPN2LatinAmerica.us",
+            "ESPN3LatinAmerica.us"
+          ],
+          "sources": [
+            "https://www.bundesliga.com/en/bundesliga/info/broadcasters/SOUTH_AMERICA/co",
+            "https://latinamerica.espnpressroom.com/press-releases/2026/10/programacion-destacada-del-23-al-30-de-octubre/"
+          ]
+        },
+        {
+          "name": "FIFA+ / canales de clubes / Golazo",
+          "url": "https://www.plus.fifa.com/",
+          "territory": "Según emisor",
+          "access": "Gratis o registro según contenido",
+          "coverage": "Competiciones y programación seleccionadas. Un canal del Real Madrid no incluye todos sus partidos.",
+          "channelIds": [
+            "FIFAPlus.uk",
+            "RealMadridTV.es",
+            "CBSSportsGolazoNetwork.us"
+          ],
+          "sources": [
+            "https://www.plus.fifa.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f1",
+      "name": "Fórmula 1 / Motor",
+      "providers": [
+        {
+          "name": "ESPN / Disney+ / F1 TV",
+          "url": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+          "territory": "Latinoamérica; comprobar país para F1 TV",
+          "access": "TV o suscripción",
+          "coverage": "F1 confirma el acuerdo ESPN regional hasta 2028. Horarios y canales por sesión.",
+          "channelIds": [
+            "ESPNLatinAmerica.us",
+            "ESPN2LatinAmerica.us"
+          ],
+          "sources": [
+            "https://corp.formula1.com/formula-1-extends-its-partnership-with-espn-to-broadcast-f1-in-latin-america-and-the-caribbean/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nfl",
+      "name": "NFL / Fútbol americano",
+      "providers": [
+        {
+          "name": "NFL Game Pass en DAZN",
+          "url": "https://www.dazn.com/",
+          "territory": "Internacional según disponibilidad",
+          "access": "Suscripción",
+          "coverage": "Paquete por partido y NFL RedZone; no es lo mismo que una sola señal NFL Network.",
+          "channelIds": [],
+          "sources": [
+            "https://www.nfl.com/_amp/what-is-nfl-game-pass-on-dazn"
+          ]
+        },
+        {
+          "name": "ESPN / Disney+",
+          "url": "https://latinamerica.espnpressroom.com/category/programacion/",
+          "territory": "Venezuela según anuncio por partido",
+          "access": "TV o suscripción",
+          "coverage": "Selección de partidos con canal y hora en la programación regional.",
+          "channelIds": [
+            "ESPNLatinAmerica.us",
+            "ESPN2LatinAmerica.us",
+            "ESPN3LatinAmerica.us"
+          ],
+          "sources": [
+            "https://latinamerica.espnpressroom.com/category/programacion/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tenis",
+      "name": "Tenis",
+      "providers": [
+        {
+          "name": "ESPN / Disney+",
+          "url": "https://www.disneyplus.com/",
+          "territory": "Venezuela según torneo",
+          "access": "TV o suscripción",
+          "coverage": "Wimbledon y US Open 2026: cobertura por canales y canchas digitales. Comprobar torneo y plan.",
+          "channelIds": [
+            "ESPN2LatinAmerica.us",
+            "ESPN3LatinAmerica.us"
+          ],
+          "sources": [
+            "https://latinamerica.espnpressroom.com/press-releases/2026/06/espn-trae-el-inicio-de-wimbledon-el-tercer-grand-slam-de-la-temporada/",
+            "https://latinamerica.espnpressroom.com/press-releases/2026/08/espn-trae-el-us-open-2026-la-gran-cita-del-tenis-en-nueva-york/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combate",
+      "name": "UFC / Boxeo / MMA",
+      "providers": [
+        {
+          "name": "UFC en Paramount+",
+          "url": "https://www.paramountplus.com/",
+          "territory": "Latinoamérica desde 2026",
+          "access": "Suscripción",
+          "coverage": "Acuerdo de UFC para eventos numerados y Fight Nights. Un canal de MMA o Bellator no equivale a UFC.",
+          "channelIds": [],
+          "sources": [
+            "https://www.ufc.com/news/paramount-and-ufc-expand-partnership-to-latin-america-and-australia-starting-in-2026"
+          ]
+        },
+        {
+          "name": "ESPN Knockout",
+          "url": "https://latinamerica.espnpressroom.com/category/programacion/",
+          "territory": "Venezuela según cartelera",
+          "access": "TV o suscripción",
+          "coverage": "Boxeo y carteleras concretas anunciadas por ESPN.",
+          "channelIds": [
+            "ESPN2LatinAmerica.us",
+            "ESPN3LatinAmerica.us"
+          ],
+          "sources": [
+            "https://latinamerica.espnpressroom.com/category/programacion/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otros",
+      "name": "Otros deportes",
+      "providers": [
+        {
+          "name": "Programación deportiva por evento",
+          "url": "https://latinamerica.espnpressroom.com/category/programacion/",
+          "territory": "Venezuela según publicación",
+          "access": "Variable por evento",
+          "coverage": "Rugby, golf, pádel y otros eventos se identifican por programación. No se asignan derechos universales a un canal.",
+          "channelIds": [],
+          "sources": [
+            "https://latinamerica.espnpressroom.com/category/programacion/"
+          ]
+        }
+      ]
+    }
+  ]
+}

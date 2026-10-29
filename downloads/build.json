@@ -1,11 +1,11 @@
 {
-  "version": "1.1-preview",
-  "versionCode": 2,
+  "version": "1.2-preview",
+  "versionCode": 3,
   "package": "com.cancha.tv",
   "androidMin": 6,
   "androidTV": true,
-  "bytes": 6864069,
-  "sha256": "4153e5d046d96d0c1755efebabd5b77f1fcb34df08e9fdae82d00bd7387b047a",
-  "createdAt": "2026-10-28T23:55:05.537Z",
+  "bytes": 6927584,
+  "sha256": "fa4329066774754a347d81e24b364a0ae3883a1ac1cf515c0aa842fca6aff1c3",
+  "createdAt": "2026-10-29T01:12:08.684Z",
   "validation": "Compilación, lint, políticas de recuperación/actualización y firma. Prueba física de esta revisión pendiente."
 }

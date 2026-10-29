@@ -1,9 +1,9 @@
 {
-  "versionName": "1.1-preview",
-  "versionCode": 2,
+  "versionName": "1.2-preview",
+  "versionCode": 3,
   "packageName": "com.cancha.tv",
-  "apkUrl": "https://rodrigorl18.github.io/cancha-tv/downloads/cancha-tv-2.apk",
-  "bytes": 6864069,
-  "sha256": "4153e5d046d96d0c1755efebabd5b77f1fcb34df08e9fdae82d00bd7387b047a",
-  "releaseNotes": "Nueva guía para TV con vista previa, NBA y favoritos. Catálogo ampliado con actualización desde la app. Reconexión automática de señales y búsqueda de nuevas versiones."
+  "apkUrl": "https://rodrigorl18.github.io/cancha-tv/downloads/cancha-tv-3.apk",
+  "bytes": 6927584,
+  "sha256": "fa4329066774754a347d81e24b364a0ae3883a1ac1cf515c0aa842fca6aff1c3",
+  "releaseNotes": "Programación Ahora / Después por señal. Agenda oficial de partidos NBA, MLB y ESPN Venezuela, emisores por deporte, selector de señal y catálogo ampliado."
 }
